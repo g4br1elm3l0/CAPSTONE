@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <title>KARFETCH</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1 class=logo>
+                KARFETCH
+            </h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#camisa">CAMISAS</a></li>
+                <li> <a href="#calca">CALÇAS</a></li>
+                <li> <a href="#bolsa">BOLSAS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id=vitrine>
+
+        </div>
+
+
+        <section id="pesquisa">
+            <div>
+                <input type="text" id="buscar" placeholder="Digite aqui sua pesquisa">
+                <button>pesquisar</button>
+            </div>
+
+            <div id="compra">
+                <div id="carrinho">
+                    <h1 id="logoCarrinho">Carrinho de compras</h1>
+                    <h3>O carrinho está vazio<br> Adicione itens.</h3>
+                </div>
+
+                <div id="total">
+
+                    <div id="quantidade">
+                        <p> Quantidade:</p>
+                        <p id="qnt"></p>
+                    </div>
+
+                    <div id="valor">
+                        <p> Total:</p>
+                        <p id="ttl"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./js/database.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
